@@ -10,7 +10,7 @@
 		<version>0.5.0</version>
 	</parent>
 
-	<artifactId>fon-reports-floodslide</artifactId>
+	<artifactId>fon-reports-floodslide-search</artifactId>
 
 	<name>FonReports-FloodSlide</name>
 	<url>http://maven.apache.org</url>
@@ -62,6 +62,11 @@
 		<dependency>
 			<groupId>jfree</groupId>
 			<artifactId>jfreechart</artifactId>
+		</dependency>
+		<!-- Dom4J -->
+		<dependency>
+			<groupId>org.dom4j</groupId>
+			<artifactId>dom4j</artifactId>
 		</dependency>
 	</dependencies>
 
